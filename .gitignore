@@ -1,6 +1,22 @@
+# R session and user files
 .Rproj.user
 .Rhistory
 .RData
+.Rdata
 .httr-oauth
+
+# Package build artifacts
+*.tar.gz
+*.Rcheck/
+
+# Rendered docs (regenerate from source)
+docs/*.html
+
+# OS files
 .DS_Store
-.quarto
+Thumbs.db
+
+# Exploration data (downloaded from external sources)
+# Uncomment if data files get large:
+# exploration/data/*.rds
+# exploration/data/*.csv
